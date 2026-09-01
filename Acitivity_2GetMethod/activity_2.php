@@ -20,7 +20,7 @@
         $gender="Female";
     }
 
-    $score = $_GET['score'] ?? '';
+    $score = $_GET['score'] ?? null;
 
 
     if($score >=90 && $score<=100){
@@ -29,7 +29,7 @@
         echo "B";
     }else if($score >=70 && $score<=79){
         echo "C";
-    }else if($score >70){
+    }else if($score <70 &&$score!=null){
         echo "D";
 
     }
