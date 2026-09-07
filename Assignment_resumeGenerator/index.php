@@ -36,9 +36,10 @@
         <form action="result.php" method="get" class="row g-3">
             <h2>Enter you personal Details</h2>
             <div class="col-md-8">
-                <label class="form-label" for="name">Name</label>
-                <input type="text" class="form-control" name="fullName" placeholder="Enter your Full Name" required>
+                <label class="form-label" for="firstName">First name</label>
+                <input type="text" class="form-control" name="firstName" placeholder="Enter your Full Name" required>
             </div>
+            
             <h3>Contact</h3>
             <div class="col-md-6">
                 <label for="email" class="form-label">Email</label>
